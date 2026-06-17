@@ -121,6 +121,11 @@
         <h3>Fully Private</h3>
         <p>Your data never leaves your own infrastructure. No cloud accounts required.</p>
       </div>
+      <div class="card">
+        <div class="card-icon">🌐</div>
+        <h3>Tailscale or Cloudflare</h3>
+        <p>Connect via Tailscale (easiest) or Cloudflare Tunnel for access from any network without installing extra apps.</p>
+      </div>
     </div>
   </div>
 </section>
@@ -128,12 +133,20 @@
 <!-- Install -->
 <section class="install">
   <h2>Set up in minutes</h2>
-  <p>Download the Mac agent from GitHub, run the installer, and configure the iOS app
-     with your server URL and token. That's it.</p>
+  <p>Download the Mac agent from GitHub, run the installer, and connect using
+     Tailscale (easiest) or Cloudflare Tunnel. Then configure the iOS app with
+     your server URL and token.</p>
   <pre>
 git clone https://github.com/INVESTMENTPERPLE/NFTYcontrol.git
 cd NFTYcontrol
 bash setup_launchagent.command</pre>
+  <br>
+  <p style="color:#a1a1a6; font-size:0.9rem;">
+    <strong style="color:#f5f5f7;">Option A — Tailscale:</strong>
+    Install Tailscale on your Mac and iPhone, use the 100.x.x.x IP as server URL.<br><br>
+    <strong style="color:#f5f5f7;">Option B — Cloudflare Tunnel:</strong>
+    Expose your Mac with a public domain. No extra app needed on the client.
+  </p>
   <br>
   <a class="badge badge-primary" href="https://github.com/INVESTMENTPERPLE/NFTYcontrol">
     View full setup guide →
