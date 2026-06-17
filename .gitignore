@@ -1,0 +1,13 @@
+# Credenciales y claves — NUNCA subir
+.ntfy_token
+*.pem
+*.cer
+*.p8
+*.key
+*.certSigningRequest
+*.json
+
+# Logs y temporales
+*.log
+__pycache__/
+.DS_Store
