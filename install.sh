@@ -2,7 +2,7 @@
 # ─────────────────────────────────────────────────────────────────────────────
 # NtfyControl — instalación y actualización en UN solo comando.
 #
-#   curl -fsSL https://raw.githubusercontent.com/INVESTMENTPERPLE/NFTYcontrol/main/install.sh | bash
+#   curl -fsSL https://raw.githubusercontent.com/INVESTMENTPERPLE/servward-agent/main/install.sh | bash
 #
 # Descarga el código de GitHub (o lo actualiza si ya estaba), detecta tu sistema
 # (Mac o Linux) y monta el broker + el agente + ntfyctl. Vuelve a ejecutar el
@@ -12,7 +12,7 @@
 # ─────────────────────────────────────────────────────────────────────────────
 set -euo pipefail
 
-REPO_URL="https://github.com/INVESTMENTPERPLE/NFTYcontrol.git"
+REPO_URL="https://github.com/INVESTMENTPERPLE/servward-agent.git"
 SRC="${NTFY_SRC:-$HOME/.ntfycontrol}"
 OS="$(uname -s)"
 NAME="${1:-$(hostname -s 2>/dev/null || hostname)}"

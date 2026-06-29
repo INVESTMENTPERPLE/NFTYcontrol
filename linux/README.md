@@ -15,8 +15,8 @@ Tunnel. El Mac (agent.py), el iPhone (app) y "lo demás" se conectan a él.
 En el servidor Linux:
 
 ```bash
-git clone https://github.com/INVESTMENTPERPLE/NFTYcontrol.git
-cd NFTYcontrol
+git clone https://github.com/INVESTMENTPERPLE/servward-agent.git
+cd servward-agent
 ```
 
 (o copia al menos `server.py` y la carpeta `linux/`).
